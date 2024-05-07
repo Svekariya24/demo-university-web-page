@@ -1,0 +1,134 @@
+.logo{
+ float: left;
+ height: auto;
+ width: 20%;  
+ overflow: auto;
+ margin: 5px;
+}
+
+header{
+    overflow: auto;
+}
+
+header > form {
+    float: right;
+    overflow: auto;
+    margin: 20px;
+}
+
+body > aside > nav >ul >li , body > aside > nav > ul > li > a {
+    display: inline;
+    color: #DB9B3E;
+    text-decoration-line: none;
+    padding-right: 40px;
+}
+
+.background-img{
+    height: 40em;
+    width: 100%;
+    margin: 10px;
+}
+
+.outer{
+    overflow: auto;
+    padding: 10px;
+}
+
+.inner{
+    float:left;
+    width:29%;
+    overflow: hidden;
+    margin: 10px;
+    padding: 15px;
+}
+
+#img-one ,#img-two ,#img-three{
+    width: 100%;
+    margin: auto;
+}
+
+footer > p > b , footer > p > b >a {
+    float: right;
+    padding-right: 40px;
+    text-decoration-line: none;
+    color: #DB9B3E;
+    margin: 5px;
+}
+footer{
+    background-color:  rgb(130, 34, 39);
+}
+body{
+    width: 80vw;
+    margin: auto;
+    font-family: Helvetica, Airal, Sans serif;
+}
+
+#nav-bar > h1 {
+    text-align: center;
+}
+.left-side{
+    float: left;
+    width: 45%;
+    margin: 20px;
+}
+
+#exploring, #advisor, #Customize,#Apply{
+    width: 100%;
+    margin: auto;
+}
+#main{
+    overflow: auto;
+}
+
+#right-up , #right-down{
+    margin: 20px;
+    padding: 10px;
+    background-color: #822227;
+}
+
+#right{
+    float: right;
+    width: 30%;
+}
+
+#form{
+    width: 65%;
+    margin: 5px;
+    overflow: auto;
+    position: static;
+}
+nav{
+    background-color: rgb(130, 34, 39);
+    font-size: x-large;
+    margin: auto;
+}
+footer , footer > p , footer>h1{
+    color: #DB9B3E;
+    margin: 5px;
+    padding: 5px;
+}
+
+#right-up > p > a ,#right-down > ul > li >a{
+    text-decoration-line: none;
+    color: whitesmoke;
+}
+
+p , p > a {
+    color: rgb(86, 15, 20);
+    text-decoration-line: none;
+}
+p > b , h2 , #right-down > p{
+    color: #DB9B3E;
+}
+h1 {
+    color: #822227;
+}
+
+a:hover,#right-up > p > a:hover,#right-down > ul > li > a:hover{
+    color: #7C5823;
+    text-decoration: underline; 
+}
+#right-up > p > a:link,#right-down > ul > li > a:link{
+    text-decoration: underline;
+}
+
